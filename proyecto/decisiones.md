@@ -1,6 +1,6 @@
 # Decisiones - Lienzo Vivo
 
-## 1. Plugins (10 pts)
+## 1. Plugins 
 
 | Plugin | Funcionalidad que resuelve | Tipo (Gratis / De pago) y qué incluye la versión gratis | Versión de WordPress compatible ("Probado hasta") | ¿Funciona con tema propio (custom)? | Enlace a la ficha en WordPress.org |
 | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -12,7 +12,7 @@
 
 ---
 
-## 2. Páginas de la Fase 1 (5 pts)
+## 2. Páginas de la Fase 1 
 
 1. **Inicio** *(Obligatoria)*: Presenta la propuesta de valor principal de "Lienzo Vivo" ("Arte hecho a mano que da vida a tus recuerdos"), muestra destacados de cuadros y un llamado a la acción directo para cotizar.
 2. **Contacto** *(Obligatoria)*: Permite a los clientes enviar solicitudes de encargos personalizados, medidas y consultas de forma directa mediante un formulario.
