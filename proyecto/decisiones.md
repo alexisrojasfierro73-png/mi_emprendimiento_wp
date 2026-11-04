@@ -1,6 +1,4 @@
-
-```markdown
-# Decisiones de tu Sitio - Lienzo Vivo
+# Decisiones - Lienzo Vivo
 
 ## 1. Plugins (10 pts)
 
@@ -12,7 +10,7 @@
 | **Loginizer** | Protección contra ataques de fuerza bruta limitando los intentos fallidos de inicio de sesión por IP. | **Gratis:** Bloqueo automático de IP tras rebasar los intentos permitidos y gestión de listas blancas/negras. | 6.4 o superior | Sí | [Loginizer en WordPress.org](https://wordpress.org/plugins/loginizer/) |
 | **W3 Total Cache** | Optimización del rendimiento web, almacenamiento en caché de páginas y reducción de tiempos de carga. | **Gratis:** Caché de página, de objetos, de navegador y optimización básica de rendimiento web. | 6.4 o superior | Sí | [W3 Total Cache en WordPress.org](https://wordpress.org/plugins/w3-total-cache/) |
 
-
+---
 
 ## 2. Páginas de la Fase 1 (5 pts)
 
@@ -26,9 +24,9 @@
 
 ---
 
-## 3. Plan del Tema (5 pts)
+## 3. Plan del Tema 
 
-### A. Carta Gantt (3 pts)
+### A. Carta Gantt 
 
 | Etapa | Fechas (Noviembre 2026) | Tareas principales |
 | :--- | :--- | :--- |
@@ -50,24 +48,3 @@ gantt
     Checkpoint             :milestone, 2026-11-18, 2026-11-18
     Plugins y Ajustes      :2026-11-19, 2026-11-22
     Entrega Final          :milestone, 2026-11-25, 2026-11-25
-
-```
-
-### B. Nombre del tema (1 pt)
-
-* **`lienzo-vivo`**
-
-### C. Custom o descargado (1 pt)
-
-* **Definición:** Se desarrollará un **Tema Custom (propio)** desde cero con HTML, CSS y PHP para asegurar una estética artesanal única, minimalista y totalmente alineada con la identidad visual de la marca de arte.
-
----
-
-## 4. Plan B (5 pts)
-
-| Riesgo potencial | Qué haces para resolverlo (Mitigación) | Cuándo lo activas (Fecha o señal) |
-| --- | --- | --- |
-| **El tema custom presenta fallas de diseño o PHP** | Vuelvo al último commit estable en Git; si el error persiste, cambio temporalmente a un tema descargado (como *Astra* o *GeneratePress*) para cumplir con la estructura. | Si un error crítico impide ver el sitio después del **11 de noviembre**. |
-| **Un plugin de rendimiento (W3 Total Cache) rompe los estilos CSS** | Desactivo la optimización de archivos desde los ajustes del plugin o lo desactivo desde el panel, empleando la alternativa básica de SiteGround. | Inmediatamente al notar fallas gráficas tras activar la caché. |
-| **Problemas de conectividad o caídas en el servidor de pruebas / Local WP** | Restauro la copia de seguridad más reciente generada mediante All-in-One WP Migration. | Si el sitio se corrompe o arroja error general durante más de 1 hora continua. |
-| **Los correos del formulario de Forminator no llegan al correo de la pintora** | Reconfiguro el servicio de envío de correo o implemento un mensaje de confirmación en pantalla directo para el usuario. | A más tardar el **18 de noviembre** (durante la revisión del Checkpoint). |
