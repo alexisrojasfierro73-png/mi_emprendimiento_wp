@@ -24,30 +24,29 @@
 
 ---
 
-## 3. Plan del Tema 
-
-### A. Carta Gantt 
+### A. Carta Gantt
 
 | Etapa | Fechas (Noviembre 2026) | Tareas principales |
 | :--- | :--- | :--- |
-| **Identidad Visual** | 05 Nov - 08 Nov | Definición de tipografías elegantes, paleta de colores neutros y logotipo. |
-| **Home (Inicio)** | 09 Nov - 12 Nov | Maquetación de la página de inicio, secciones de presentación y llamadas a la acción. |
-| **Páginas y Contenidos** | 13 Nov - 17 Nov | Creación y carga de contenidos para Contacto, Nosotros, Galería y Blog. |
-| **Checkpoint** | **18 Noviembre** | **Revisión general del estado del sitio, corrección de errores y validación con docente.** |
-| **Plugins y Ajustes** | 19 Nov - 22 Nov | Instalación de Yoast SEO, Forminator, respaldos y pruebas de rendimiento. |
-| **Entrega Final** | **25 Noviembre** | **Pulido final, pruebas en producción y entrega del proyecto en GitHub.** |
+| *Identidad Visual* | 05 Nov - 08 Nov | Definición de tipografías elegantes, paleta de colores neutros y logotipo. |
+| *Home (Inicio)* | 09 Nov - 12 Nov | Maquetación de la página de inicio, secciones de presentación y llamadas a la acción. |
+| *Páginas y Contenidos* | 13 Nov - 17 Nov | Creación y carga de contenidos para Contacto, Nosotros, Galería y Blog. |
+| *Checkpoint* | *18 Noviembre* | *Revisión general del estado del sitio, corrección de errores y validación con docente.* |
+| *Plugins y Ajustes* | 19 Nov - 22 Nov | Instalación de Yoast SEO, Forminator, respaldos y pruebas de rendimiento. |
+| *Entrega Final* | *25 Noviembre* | *Pulido final, pruebas en producción y entrega del proyecto en GitHub.* |
 
-```mermaid
+mermaid
 gantt
     title Plan de Desarrollo - Lienzo Vivo
-    dateFormat  YYYY-MM-DD
+    dateFormat YYYY-MM-DD
     section Etapas
-    Identidad Visual       :active, 2026-11-05, 2026-11-08
-    Home y Estructura      :2026-11-09, 2026-11-12
-    Páginas y Contenidos   :2026-11-13, 2026-11-17
-    Checkpoint             :milestone, 2026-11-18, 2026-11-18
-    Plugins y Ajustes      :2026-11-19, 2026-11-22
-    Entrega Final          :milestone, 2026-11-25, 2026-11-25
+    Identidad Visual     :active, 2026-11-05, 2026-11-08
+    Home y Estructura    :2026-11-09, 2026-11-12
+    Páginas y Contenidos :2026-11-13, 2026-11-17
+    Checkpoint           :milestone, 2026-11-18, 2026-11-18
+    Plugins y Ajustes    :2026-11-19, 2026-11-22
+    Entrega Final        :milestone, 2026-11-25, 2026-11-25
+
 
 ### B. Elección del Tema
 
@@ -74,23 +73,23 @@ gantt
 * *Páginas publicadas en el menú:* Inicio, Blog, Nosotros y Contacto (todas con texto propio).
 * *Entradas de blog publicadas:* 3 entradas con texto propio («Lienzo vivo», «La pintura» y «Las dudas y la creación»).
 * *Plugins activos y verificados en WordPress:*
-  * All-in-One WP Migration and Backup (v7.113) — Respaldo y migración[span_0](start_span)[span_0](end_span).
-  * Forminator (v1.58.4) — Formularios de contacto y cotización[span_1](start_span)[span_1](end_span).
-  * Loginizer (v2.1.2) y Loginizer Pro (v2.1.3) — Seguridad contra ataques de fuerza bruta[span_2](start_span)[span_2](end_span)[span_3](start_span)[span_3](end_span).
-  * Speed Optimizer (v7.8.6) y W3 Total Cache (v2.11.0) — Optimización de rendimiento y caché[span_4](start_span)[span_4](end_span).
-  * Yoast SEO (v28.8) — Optimización para buscadores[span_5](start_span)[span_5](end_span).
+  * All-in-One WP Migration and Backup (v7.113) — Respaldo y migración.
+  * Forminator (v1.58.4) — Formularios de contacto y cotización.
+  * Loginizer (v2.1.2) y Loginizer Pro (v2.1.3) — Seguridad contra ataques de fuerza bruta.
+  * Speed Optimizer (v7.8.6) y W3 Total Cache (v2.11.0) — Optimización de rendimiento y caché.
+  * Yoast SEO (v28.8) — Optimización para buscadores.
 
 ---
 
 ## 6. Cambios respecto de la Sumativa 2
 
 ### Qué se mantuvo
-* *Identidad y propuesta visual:* Se mantuvo el concepto artístico de Lienzo Vivo, la paleta de colores neutros, las tipografías elegantes y las páginas base planificadas en la Fase 1 (incluyendo Inicio, Nosotros, Blog y Contacto)[span_6](start_span)[span_6](end_span)[span_7](start_span)[span_7](end_span).
+* *Identidad y propuesta visual:* Se mantuvo el concepto artístico de Lienzo Vivo, la paleta de colores neutros, las tipografías elegantes y las páginas base planificadas en la Fase 1 (incluyendo Inicio, Nosotros, Blog y Contacto).
 * *Contenido propio:* Se conservaron las 3 entradas del blog con reflexiones originales sobre la pintura y el proceso creativo.
 
 ### Qué se cambió y por qué
-* *Explicitación del tema y versión de plugins:* Siguiendo la retroalimentación de la evaluación anterior, se formalizó el uso del tema oficial *Twenty Twenty-Five* y se verificaron las versiones instaladas de los plugins activos dentro del entorno de WordPress en producción[span_8](start_span)[span_8](end_span)[span_9](start_span)[span_9](end_span)[span_10](start_span)[span_10](end_span).
-* *Simplificación del contacto en fase de checkpoint:* Para asegurar estabilidad y evitar fallos de envío de correo en el servidor gratuito, la página Contacto se publicó con información directa (correo, redes y horarios) respaldada por Forminator[span_11](start_span)[span_11](end_span).
+* *Explicitación del tema y versión de plugins:* Siguiendo la retroalimentación de la evaluación anterior, se formalizó el uso del tema oficial *Twenty Twenty-Five* y se verificaron las versiones instaladas de los plugins activos dentro del entorno de WordPress en producción.
+* *Simplificación del contacto en fase de checkpoint:* Para asegurar estabilidad y evitar fallos de envío de correo en el servidor gratuito, la página Contacto se publicó con información directa (correo, redes y horarios) respaldada por Forminator.
 
 ---
 
@@ -98,4 +97,3 @@ gantt
 
 * *Decisión tomada:* *Continuar* con el tema *Twenty Twenty-Five* y la arquitectura actual hacia la entrega final.
 * *Justificación y evidencia:* El sitio carga correctamente en producción (https://lienzovivo.infinityfree.me), mantiene la identidad visual de Lienzo Vivo, cuenta con todas las páginas (incluyendo Inicio y Contacto en el menú) y las 3 entradas de blog exigidas para el checkpoint. Evidencia verificable mediante el historial de commits de este repositorio y el sitio activo en producción.
-*
