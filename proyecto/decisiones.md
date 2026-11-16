@@ -48,3 +48,54 @@ gantt
     Checkpoint             :milestone, 2026-11-18, 2026-11-18
     Plugins y Ajustes      :2026-11-19, 2026-11-22
     Entrega Final          :milestone, 2026-11-25, 2026-11-25
+
+### B. Elección del Tema
+
+* *Tema elegido:* Twenty Twenty-Five (tema oficial de WordPress).
+* *Tipo de tema:* Descargado / oficial (no desarrollado desde cero).
+* *Razón de elección:* Se eligió *Twenty Twenty-Five* porque utiliza edición completa del sitio por bloques, es ligero, estable en hosting gratuito (InfinityFree) y permite adaptar la paleta de colores neutros, tipografías elegantes y galerías visuales para resaltar las obras de Lienzo Vivo sin errores de código.
+
+---
+
+## 4. Plan B (Gestión de Riesgos)
+
+| Riesgo identificado | Qué haremos en cada caso (Acción) | Cuándo se activa |
+| :--- | :--- | :--- |
+| *1. Fallo o lentitud en el hosting gratuito (InfinityFree)* | Realizar respaldos completos periódicos con el plugin All-in-One WP Migration and Backup y, en caso de caída prolongada, restaurar el paquete .wpress en un hosting alternativo o entorno local. | Si el sitio presenta errores de servidor (500/503) o tiempo de inactividad superior a 12 horas antes de la entrega. |
+| *2. Conflicto o error de compatibilidad entre plugins* | Desactivar el plugin conflictivo desde el panel de WordPress (o renombrar su carpeta por FTP) y mantener activos únicamente los plugins esenciales (SEO, formularios y respaldo). | Si al instalar o actualizar un plugin la página queda en blanco o se pierden los estilos visuales. |
+| *3. Fallo en el envío de correos del formulario de contacto* | Configurar autenticación SMTP o mostrar de forma destacada el correo electrónico directo y redes sociales de Lienzo Vivo en la página Contacto. | Si los mensajes enviados desde Forminator no llegan a la bandeja de entrada durante las pruebas. |
+
+---
+
+## 5. Estado en Producción (Formativa 08: Checkpoint)
+
+* *URL en producción:* https://lienzovivo.infinityfree.me
+* *Tema activo:* Twenty Twenty-Five
+* *Páginas publicadas en el menú:* Inicio, Blog, Nosotros y Contacto (todas con texto propio).
+* *Entradas de blog publicadas:* 3 entradas con texto propio («Lienzo vivo», «La pintura» y «Las dudas y la creación»).
+* *Plugins activos y verificados en WordPress:*
+  * All-in-One WP Migration and Backup (v7.113) — Respaldo y migración[span_0](start_span)[span_0](end_span).
+  * Forminator (v1.58.4) — Formularios de contacto y cotización[span_1](start_span)[span_1](end_span).
+  * Loginizer (v2.1.2) y Loginizer Pro (v2.1.3) — Seguridad contra ataques de fuerza bruta[span_2](start_span)[span_2](end_span)[span_3](start_span)[span_3](end_span).
+  * Speed Optimizer (v7.8.6) y W3 Total Cache (v2.11.0) — Optimización de rendimiento y caché[span_4](start_span)[span_4](end_span).
+  * Yoast SEO (v28.8) — Optimización para buscadores[span_5](start_span)[span_5](end_span).
+
+---
+
+## 6. Cambios respecto de la Sumativa 2
+
+### Qué se mantuvo
+* *Identidad y propuesta visual:* Se mantuvo el concepto artístico de Lienzo Vivo, la paleta de colores neutros, las tipografías elegantes y las páginas base planificadas en la Fase 1 (incluyendo Inicio, Nosotros, Blog y Contacto)[span_6](start_span)[span_6](end_span)[span_7](start_span)[span_7](end_span).
+* *Contenido propio:* Se conservaron las 3 entradas del blog con reflexiones originales sobre la pintura y el proceso creativo.
+
+### Qué se cambió y por qué
+* *Explicitación del tema y versión de plugins:* Siguiendo la retroalimentación de la evaluación anterior, se formalizó el uso del tema oficial *Twenty Twenty-Five* y se verificaron las versiones instaladas de los plugins activos dentro del entorno de WordPress en producción[span_8](start_span)[span_8](end_span)[span_9](start_span)[span_9](end_span)[span_10](start_span)[span_10](end_span).
+* *Simplificación del contacto en fase de checkpoint:* Para asegurar estabilidad y evitar fallos de envío de correo en el servidor gratuito, la página Contacto se publicó con información directa (correo, redes y horarios) respaldada por Forminator[span_11](start_span)[span_11](end_span).
+
+---
+
+## 7. Decisión: Continuar con Twenty Twenty-Five
+
+* *Decisión tomada:* *Continuar* con el tema *Twenty Twenty-Five* y la arquitectura actual hacia la entrega final.
+* *Justificación y evidencia:* El sitio carga correctamente en producción (https://lienzovivo.infinityfree.me), mantiene la identidad visual de Lienzo Vivo, cuenta con todas las páginas (incluyendo Inicio y Contacto en el menú) y las 3 entradas de blog exigidas para el checkpoint. Evidencia verificable mediante el historial de commits de este repositorio y el sitio activo en producción.
+*
